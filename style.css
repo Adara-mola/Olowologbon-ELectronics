@@ -6,17 +6,20 @@ body {
 }
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 10px;
 }
-.nav-secon-container {
+.nav-second-container {
     display: flex;
-    line-height: 23.44px;
+    justify-content: space-evenly;
+    width: 60vw;
 }
 .nav-logo {
-    width: 20px;
-    column-gap: 50px;
-    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: 50px;
+   
     
 }
 .nav-bar-logo {
@@ -72,6 +75,7 @@ border: none;
 .second-navbar-container {
     display: flex;
     justify-content: flex-start;
+    margin-left: -15px;
 
 }
 .navbar, ul  {
@@ -104,6 +108,7 @@ border: none;
     background: url(./assets/hero-section.png) no-repeat center center/cover;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 
 }
 .hero-section-camera-section {
@@ -827,3 +832,436 @@ ul {
     height: 26px;
     padding-top: 10px;
 }
+
+/* login Page */
+.login-section {
+    width: 436px;
+    height: 1003.94px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+     margin: auto;
+     margin-bottom: 250px;
+     margin-top: 100px;
+}
+.log-heading {
+    font-weight: 400;
+    font-size: 27.5086px;
+    letter-spacing: 0.02em;
+    color: #222222;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+.log-para {
+    font-weight: 400;
+    font-size: 22.0069px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.button-login {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.google-icon {
+    width: 20px;
+    height: 15px;
+    color: #ffffff; 
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.google-login-btn {
+    background: #FFFFFF;
+    border: 1.10035px solid #000000;
+    width: 45vw;
+    height: 60.02px;
+    font-weight: 400;
+    font-size: 18.0069px;
+    letter-spacing: 0.02em;
+    color: #EB4335;
+    margin-top: 25px;
+}
+.facebook-login-btn {
+    background: #3B5998;
+    width: 45vw;
+    height: 60.02px;
+    font-weight: 400;
+    font-size: 18.0069px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 25px;
+}
+.twitter-login-btn {
+    background: #55ACEE;
+    width: 45vw;
+    height: 60.02px;
+    font-weight: 400;
+    font-size: 18.0069px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 25px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+#google-login {
+    width: 45vw;
+    height: 55.02px;
+    border: 0.880277px solid #D2CCCC;
+    margin: 30px 0;
+    
+}
+#fname {
+    width: 45vw;
+    height: 55.02px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0.880277px solid #D2CCCC;
+}
+.log-signup-btn {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    margin: 30px 0;   
+
+}
+.log-login{
+    background: #FAB529;
+    color: #ffffff;
+    border: none;
+    width: 75.03px;
+    height: 35.01px;
+    font-weight: 400;
+    font-size: 14.01px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.log-sign-up {
+    background: #EEEEEE;
+    color: #222222;
+    border: none;
+    width: 75.03px;
+    height: 35.01px;
+    font-weight: 400;
+    font-size: 14.01px;
+    margin-top: 10px;
+
+}
+.user-login {
+    font-weight: 400;
+    font-size: 17.6055px;
+    letter-spacing: 0.02em;
+    color: #787878;
+        
+}
+.login-save {
+    display: flex;
+    justify-content: space-between;
+
+}
+#login-saver {
+    font-weight: 400;
+    font-size: 15.6055px;
+    letter-spacing: 0.02em;
+    color: #787878;
+    margin: 30px 10px;
+}
+.forgot-password {
+    font-weight: 400;
+    font-size: 15.6055px;
+    letter-spacing: 0.02em;
+    color: #FAB529;
+}
+
+
+.smartphone-view {
+    display: none;
+}
+
+
+
+
+/* Smartphones */
+@media (max-width: 500px) {
+    
+    .hero-section-camera-section {
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     height: 380px;
+     
+    }
+     .hero-section-blue-generation-section{
+        display: none;
+        width: 100vw;
+     }
+     .hero-section-camera-image {
+        width: 300px;
+        height: 300px;
+        left: 100px;
+     }
+    .hero-section-left-heading {
+        width: 350px;
+        height: 50px;
+        font-size: 25px;
+        Line-height: 30px;
+        font-weight: 500;
+        margin-left: 30px;
+        margin-top: 30px;
+     }
+    .hero-section-left-paragraph {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        width: 170px;
+        height: 60px;
+        margin-left: 32px;
+        margin-top: 18px;
+    }
+    .home-appliance-container {
+        width: auto;
+    }
+    .home-appliance-card-container{
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .featured-product-container {
+        display: flex;
+        width: auto;
+
+    }
+    .home-appliance-drop-down{
+        display: none;
+    }
+    .featured-product-card-container{
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .discount-section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .discount-section-card-item.telvison {
+        display: none;
+    }
+    .discount-section-card-item.generators {
+        display: none;
+    }
+    .discount-section-card-item {
+        width: auto;
+        margin-top: -100px;
+        margin-left: 100px;
+    }
+    .discount-section-title1 {
+        text-align: center;
+    }
+    .discount-section-para1 {
+        text-align: center;
+    }
+        .product-price-container {
+            width: auto;
+        }
+        .rating-stars {
+            text-align: center;
+        }
+    .file {
+        width: 100%;
+    }
+    .quantity-scale-container {
+        width: auto;
+    }
+    .signup-card-section {
+        width: auto;
+        margin-top: 5px;
+    }
+    .discount-section-form {
+        width: auto;
+    }
+    .discount-section-btn2 {
+        display: block;
+        margin: auto;
+     }
+     .forth-section-heading-container{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    
+     }
+     .forth-section-heading-container > ul {
+        justify-content: space-between;
+        width: auto;
+        flex-wrap: wrap;
+        margin-left: -20px;
+     }
+     .section-four-product-container {
+        flex-wrap: wrap;
+        width: auto;
+     }
+     .section-four-product-container.row-reverse {
+        display: none;
+     }
+     .forth-section-heading-container.part-2 {
+        display: none;
+     }
+     .article-four-section-four {
+        flex-wrap:wrap ;
+     }
+     
+     .article-5-section-4{
+       display: none;
+     }
+     .footer-1-container {
+        display: none;
+     }
+     .footer-1-item-1 {
+        font-size: 13px;
+        /* text-align: center; */
+        line-height: 22px;
+        margin-left: 10px;
+        margin-top: -100px;
+        width: auto;
+     }
+     .footer-1-item-2 {
+        font-size: 8px;
+        /* text-align: center; */
+        line-height: 18px;
+     }
+         .footer-subscribe-input {
+            display: block;
+         }
+        
+         .footer-1-item-2.enter {
+            display: none;
+         }
+         .nav-help-container {
+            display: none;
+         }
+         .nav-container {
+            display: none;
+         }
+         .second-navbar-container {
+            display: none;
+         }
+         .smartphone-view {
+            display: flex;
+            justify-content: space-between;
+         }
+         .nav-containers {
+            display: flex;
+            justify-content: space-between;
+         }
+         .navbar {
+            display: none;
+         }
+        .nav-logo {
+                 width: 30vw;
+                 margin-left: 10px;
+                 margin-right: 20px;
+        }
+        .second-navbar-containers {
+            width: 60vw;
+            
+
+        }
+        .second-nav-btn {
+             /* margin-right: -20px; */
+             width: 120px;
+            height: 37px
+        }
+        
+        
+
+
+
+       
+    
+        
+}
+
+
+
+/* Normal*/
+@media (min-width: 769px) and (max-width: 1200px) {
+   
+    .hero-section-camera-section {
+          width: 500px;
+          height: 380px;
+          margin-right: 20px;
+     }
+    .hero-section-camera-image {
+         position: absolute;
+         width: 380px;
+         height: 184px;
+         left: 100px;
+         top: 150px;
+}
+    .hero-section-blue-generation-section {
+         position: relative;
+         width: 400px;
+         height: 380px;
+}
+    .blue-gen-image {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 150px;
+    top: 120px;
+}
+.hero-section-right-heading {
+    margin-left: 30px;
+   
+}
+.hero-section-right-paragraph {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.btn-right-heading {
+    margin-top: 90px;
+    margin-left: 38px;
+}
+
+.nav-form {
+    margin-left: 20px;
+    width: 50vw;
+}
+
+.nav-help-container {
+    display: none;
+}
+.drop-down {
+    display: none;
+}
+.login-icon {
+    display: none;
+}
+.nav-cart-icon {
+    display: none;
+}
+#email,
+#password {
+    width: 117.24px;
+    height: 40.79px;
+    
+
+}
+}
+
+    
+
+
