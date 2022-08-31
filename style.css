@@ -891,13 +891,26 @@ ul {
     justify-content: center;
     align-items: center;
     
-   
-
 
 }
-.google-icon {
+.btn-right-heading:hover {
+    cursor: pointer;
+    background: #D2CCCC;
+}
+.btn-left-heading:hover {
+    cursor: pointer;
+    background: #D2CCCC;
+}
+.google-icon1 {
     width: 20px;
     height: 20px;
+    color: #ffffff; 
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.google-icon {
+    width: 30px;
+    height: 30px;
     color: #ffffff; 
     margin-top: 35px;
     margin-right: 10px;
@@ -1353,6 +1366,7 @@ a {
 .btn-right-heading {
     margin-top: 90px;
     margin-left: 38px;
+    
 }
 
 .nav-form {
