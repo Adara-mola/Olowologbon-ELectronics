@@ -856,6 +856,15 @@ ul {
      margin-bottom: 250px;
      margin-top: 100px;
 }
+.signup-section {
+    width: 436px;
+    height: 1203.94px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+     margin: auto;
+     margin-bottom: 250px;
+     margin-top: 100px;
+}
 .log-heading {
     font-weight: 400;
     font-size: 27.5086px;
@@ -881,13 +890,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 
 
 }
 .google-icon {
     width: 20px;
-    height: 15px;
+    height: 20px;
     color: #ffffff; 
     margin-top: 35px;
     margin-right: 10px;
@@ -898,10 +908,10 @@ ul {
     width: 45vw;
     height: 60.02px;
     font-weight: 400;
-    font-size: 18.0069px;
+    font-size: 19.0069px;
     letter-spacing: 0.02em;
     color: #EB4335;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .facebook-login-btn {
     background: #3B5998;
